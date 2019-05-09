@@ -1,0 +1,144 @@
+/* Your amazing stylesheet */
+
+/* Universal Styles */
+* {
+    font-family: 'Roboto', sans-serif;
+}    
+
+/* Flexbox */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Styles by Element */
+h2 {
+    color: #333;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 100;
+}
+
+h1, 
+h2 {
+    font-weight: 900;
+}
+
+h1, 
+h2, 
+h3 {
+    text-transform: uppercase;
+}
+
+/* Style by Class */
+.p-color {
+    color: #666;    
+}
+
+/* Logo */
+#logo-area {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+/* Navigation */
+nav {
+    float: right;
+    padding-top: 15px;
+    margin-right: 60px;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-flex;
+    padding: 5px 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+/* Header */
+.header {
+    /* background: purple; */
+    height: 90px;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #e1231a;
+    height: 400px;
+}
+
+.banner h1 {
+    font-weight: 900;
+}
+
+/* About */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+    padding: 0 250px;
+    
+}
+
+.about h2 {
+    font-weight: 900;
+}
+
+.about h2, p {
+    text-align: center; 
+}
+
+/* Contact */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h2 {
+    text-align: center;
+    font-weight: 900;
+}
+
+.contact p {
+    padding: 0 80px;
+}
+
+.form-headings {
+    color: #666;
+    text-transform: uppercase;
+}
+
+#submit-btn {
+    text-transform: uppercase;
+    background: #e1231a;
+    color: white;
+    padding: 8px 35px;
+    border-radius: 40px;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}    
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #383838;
+    padding: 10px;
+}    
